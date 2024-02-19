@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:realestate/screens/home_screen.dart';
-import 'package:realestate/screens/splash_screen.dart';
+import 'package:realestate/screens/welcome_screen.dart';
 
 
 void main() {
@@ -14,7 +13,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return const MaterialApp(
-      home: SplashScreen() 
+      home: WelcomeScreen() 
     );
   }
 }
