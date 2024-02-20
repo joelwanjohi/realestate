@@ -12,7 +12,7 @@ class _SignUpState extends State<SignUp> {
   Widget build(BuildContext context) {
 
     return   Scaffold(
-drawerEnableOpenDragGesture: false,
+  resizeToAvoidBottomInset: false,
    appBar: AppBar(
             elevation: 0,
             backgroundColor: Colors.green,
