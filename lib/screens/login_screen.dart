@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
+import 'package:realestate/screens/home_screen.dart';
 
 class LoginScreen extends StatefulWidget{
   @override
@@ -152,7 +153,12 @@ Widget buildLoginbtn(){
              )
             ) 
           ),
-      onPressed: ()=>print('Login Pressed'),
+      onPressed: ()  {
+                            Navigator.push(
+                                context,
+                                MaterialPageRoute(
+                                    builder: (context) => HomeScreen()));
+                          },
       child: const Text(
         'LOGIN', style: TextStyle(color: Color(0xff4f1983), fontSize: 18, fontWeight: FontWeight.bold ),),
     
@@ -194,8 +200,8 @@ Widget buildSignupbtn(){
                   end: Alignment.bottomCenter,
                   colors: [
                     Colors.green,
-                    Colors.red,
-                    Colors.red,
+                    Colors.greenAccent,
+                    Colors.greenAccent,
                     Colors.green
                   ]
           
