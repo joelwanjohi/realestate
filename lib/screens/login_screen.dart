@@ -199,11 +199,19 @@ Widget buildSignupbtn(){
                   begin: Alignment.topCenter,
                   end: Alignment.bottomCenter,
                   colors: [
-                    Colors.green,
-                    Colors.greenAccent,
-                    Colors.greenAccent,
-                    Colors.green
+                    // Colors.grey,
+                    // Colors.grey,
+                    // Colors.grey,
+                    // Colors.grey,
+                    // Colors.grey,
+                
+                    Color.fromARGB(255, 78, 162, 121),
+
+                    Color.fromARGB(255, 78, 162, 82),
+                    Color.fromARGB(255, 78, 162, 82),
+                    Color.fromARGB(255, 78, 162, 121),
                   ]
+          
           
                 )
               ),

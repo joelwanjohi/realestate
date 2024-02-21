@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:realestate/screens/home_screen.dart';
 import 'package:realestate/screens/login_screen.dart';
 
 class SignUp extends StatefulWidget {
@@ -25,6 +24,7 @@ class _SignUpState extends State<SignUp> {
           ),
         ),
         body: Stack(
+          
           children: [
             Container(
               decoration: const BoxDecoration(
@@ -35,6 +35,7 @@ class _SignUpState extends State<SignUp> {
               ),
             ),
             Scaffold(
+              resizeToAvoidBottomInset: false,
                extendBodyBehindAppBar: false,
               backgroundColor: Colors.transparent,
               body: Column(
@@ -156,6 +157,7 @@ class _SignUpState extends State<SignUp> {
               ),
             )
           ],
+          
         ));
   }
 }

@@ -22,12 +22,12 @@ class WelcomeScreen extends StatelessWidget {
                 style: TextStyle(fontWeight: FontWeight.bold,fontSize: 30, color: Color.fromARGB(255, 2, 29, 10)) ,),
           
                 const SizedBox(
-              height: 20,
+              height: 15,
                 ),
           
               const Text("Your Key to Exceptional Living!",
                    textAlign: TextAlign.center,
-                   style: TextStyle(color: Colors.black,fontWeight: FontWeight.w400, fontSize: 15,
+                   style: TextStyle(color: Colors.black,fontWeight: FontWeight.w400, fontSize: 18,
                     
                   ),),
               
