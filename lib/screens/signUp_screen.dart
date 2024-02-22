@@ -36,7 +36,7 @@ class _SignUpState extends State<SignUp> {
             ),
             Scaffold(
               resizeToAvoidBottomInset: false,
-               extendBodyBehindAppBar: false,
+      
               backgroundColor: Colors.transparent,
               body: Column(
                 crossAxisAlignment: CrossAxisAlignment.end,
