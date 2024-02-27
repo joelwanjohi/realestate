@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:realestate/screens/signUp_screen.dart';
+import 'package:realestate/screens/signup_screen.dart';
 import 'package:realestate/screens/welcome_screen.dart';
 
 
