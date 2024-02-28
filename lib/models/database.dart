@@ -69,7 +69,7 @@
 
 
 
-//json { "chat": { "messages": { "-KS3PV-iwUZp5wkNq70s": { "name": "person1", "text": "hey!" }, "-KS3PXhIhs8J_inrExy4": { "name": "person2", "text": "what’s up?" } } }, "special_chat": { "messages": { "-KR-DwqtKzlWGxSn9P0y": { "name": "person1", "text": "Want to go to the movies?" }, "-KR4tIpWmNn-EYxquSrw": { "name": "person3", "text": "Yeah! Let’s meet at 7." } } }, "users": { "uid1": { "paid": true }, "uid2": { "paid": false }, "uid3": { "paid": true } } }
+// json { "chat": { "messages": { "-KS3PV-iwUZp5wkNq70s": { "name": "person1", "text": "hey!" }, "-KS3PXhIhs8J_inrExy4": { "name": "person2", "text": "what’s up?" } } }, "special_chat": { "messages": { "-KR-DwqtKzlWGxSn9P0y": { "name": "person1", "text": "Want to go to the movies?" }, "-KR4tIpWmNn-EYxquSrw": { "name": "person3", "text": "Yeah! Let’s meet at 7." } } }, "users": { "uid1": { "paid": true }, "uid2": { "paid": false }, "uid3": { "paid": true } } }
 
 
 // image picker
