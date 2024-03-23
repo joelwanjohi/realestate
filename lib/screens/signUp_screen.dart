@@ -54,8 +54,8 @@ class _SignUpScreenState extends State<SignUpScreen> {
           child: TextField(
             controller: _fullNameController,
             keyboardType: TextInputType.text,
-            style: TextStyle(color: Colors.black),
-            decoration: InputDecoration(
+            style: const TextStyle(color: Colors.black),
+            decoration: const InputDecoration(
               border: InputBorder.none,
               contentPadding: EdgeInsets.only(top: 14),
               prefixIcon: Icon(
@@ -97,8 +97,8 @@ class _SignUpScreenState extends State<SignUpScreen> {
           child: TextField(
             controller: _mobileNumberController,
             keyboardType: TextInputType.phone,
-            style: TextStyle(color: Colors.black),
-            decoration: InputDecoration(
+            style: const TextStyle(color: Colors.black),
+            decoration: const InputDecoration(
               border: InputBorder.none,
               contentPadding: EdgeInsets.only(top: 14),
               prefixIcon: Icon(
@@ -140,8 +140,8 @@ class _SignUpScreenState extends State<SignUpScreen> {
           child: TextField(
             controller: _emailController,
             keyboardType: TextInputType.emailAddress,
-            style: TextStyle(color: Colors.black),
-            decoration: InputDecoration(
+            style: const TextStyle(color: Colors.black),
+            decoration: const InputDecoration(
               border: InputBorder.none,
               contentPadding: EdgeInsets.only(top: 14),
               prefixIcon: Icon(
@@ -180,11 +180,11 @@ class _SignUpScreenState extends State<SignUpScreen> {
           child: TextField(
             controller: _passwordController,
             obscureText: _obscureText,
-            style: TextStyle(color: Colors.black),
+            style: const TextStyle(color: Colors.black),
             decoration: InputDecoration(
               border: InputBorder.none,
-              contentPadding: EdgeInsets.only(top: 14),
-              prefixIcon: Icon(
+              contentPadding: const EdgeInsets.only(top: 14),
+              prefixIcon: const Icon(
                 Icons.lock,
                 color: Color.fromARGB(255, 47, 5, 64),
               ),
@@ -200,7 +200,7 @@ class _SignUpScreenState extends State<SignUpScreen> {
                 },
               ),
               hintText: 'Password',
-              hintStyle: TextStyle(color: Colors.black),
+              hintStyle: const TextStyle(color: Colors.black),
             ),
           ),
         )
@@ -231,11 +231,11 @@ class _SignUpScreenState extends State<SignUpScreen> {
           child: TextField(
             controller: _confirmPasswordController,
             obscureText: _confirmObscureText,
-            style: TextStyle(color: Colors.black),
+            style: const TextStyle(color: Colors.black),
             decoration: InputDecoration(
               border: InputBorder.none,
-              contentPadding: EdgeInsets.only(top: 14),
-              prefixIcon: Icon(
+              contentPadding: const EdgeInsets.only(top: 14),
+              prefixIcon: const Icon(
                 Icons.lock,
                 color: Color.fromARGB(255, 47, 5, 64),
               ),
@@ -251,7 +251,7 @@ class _SignUpScreenState extends State<SignUpScreen> {
                 },
               ),
               hintText: 'Confirm Password',
-              hintStyle: TextStyle(color: Colors.black),
+              hintStyle: const TextStyle(color: Colors.black),
             ),
          
         )
@@ -274,7 +274,7 @@ class _SignUpScreenState extends State<SignUpScreen> {
   }
 
   Widget buildRememberCv() {
-    return Container(
+    return SizedBox(
       height: 20,
       child: Row(
         children: <Widget>[
@@ -362,10 +362,10 @@ class _SignUpScreenState extends State<SignUpScreen> {
                   begin: Alignment.topCenter,
                   end: Alignment.bottomCenter,
                   colors: [
-                   Color.fromARGB(255, 78, 162, 121).withOpacity(0.6), // Adjust opacity to 60%
-                  Color.fromARGB(255, 78, 162, 82).withOpacity(0.6),
-                  Color.fromARGB(255, 78, 162, 82).withOpacity(0.6),
-                  Color.fromARGB(255, 78, 162, 121).withOpacity(0.6),
+                   const Color.fromARGB(255, 78, 162, 121).withOpacity(0.6), // Adjust opacity to 60%
+                  const Color.fromARGB(255, 78, 162, 82).withOpacity(0.6),
+                  const Color.fromARGB(255, 78, 162, 82).withOpacity(0.6),
+                  const Color.fromARGB(255, 78, 162, 121).withOpacity(0.6),
                   ],
                 ),
               ),
