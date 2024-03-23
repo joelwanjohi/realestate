@@ -67,7 +67,7 @@ class WelcomeScreen extends StatelessWidget {
                       MaterialButton(
                         minWidth: double.infinity,
                         height: 60,
-                        onPressed: (){Navigator.push(context, MaterialPageRoute(builder: (context)=> SignUp()));
+                        onPressed: (){Navigator.push(context, MaterialPageRoute(builder: (context)=> SignUpScreen()));
                         },
 
                          color: Colors.green,
