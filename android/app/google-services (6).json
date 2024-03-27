@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "81934242185",
+    "project_id": "realestate-41f3e",
+    "storage_bucket": "realestate-41f3e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:81934242185:android:9c82a080cc0572346b5158",
+        "android_client_info": {
+          "package_name": "com.example.realestate"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAKTTmOUYhgN8v-H9begR_tUBeiz2z2ppU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:realestate/screens/home_screen.dart';
+import 'package:realestate/screens/login_screen.dart';
 
 class SignUpScreen extends StatefulWidget {
   @override
@@ -12,11 +13,11 @@ class _SignUpScreenState extends State<SignUpScreen> {
   bool _obscureText = true;
   bool _confirmObscureText = true;
 
-  TextEditingController _fullNameController = TextEditingController();
-  TextEditingController _mobileNumberController = TextEditingController();
-  TextEditingController _emailController = TextEditingController();
-  TextEditingController _passwordController = TextEditingController();
-  TextEditingController _confirmPasswordController = TextEditingController();
+  final TextEditingController _fullNameController = TextEditingController();
+  final TextEditingController _mobileNumberController = TextEditingController();
+  final TextEditingController _emailController = TextEditingController();
+  final TextEditingController _passwordController = TextEditingController();
+  final TextEditingController _confirmPasswordController = TextEditingController();
 
   @override
   void dispose() {
@@ -316,6 +317,7 @@ class _SignUpScreenState extends State<SignUpScreen> {
         ),
         onPressed: () {
           // Implement sign up logic here
+          Navigator.push(context, MaterialPageRoute(builder: (context)=> LoginScreen()));
         },
         child: const Text(
           'SIGN UP',
