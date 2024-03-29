@@ -2,6 +2,7 @@ import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:get/get_core/src/get_main.dart';
+import 'package:realestate/authentication/auth_controller%20.dart';
 import 'package:realestate/screens/signUp_screen.dart';
 import 'package:realestate/screens/signup_screen.dart';
 import 'package:realestate/screens/welcome_screen.dart';
@@ -44,7 +45,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return const MaterialApp(
-      home: WelcomeScreen() 
+      home: WelcomeScreen(email: '',) 
     );
   }
 }

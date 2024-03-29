@@ -1,8 +1,10 @@
 import 'package:firebase_auth/firebase_auth.dart';
-import 'package:firebaseauth/login_page.dart';
-import 'package:firebaseauth/pages/Welcome_page.dart';
+
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
+import 'package:realestate/screens/login_screen.dart';
+import 'package:realestate/screens/signup_screen.dart';
+import 'package:realestate/screens/welcome_screen.dart';
 
 class AuthController extends GetxController {
   static AuthController instance = Get.find();
@@ -20,9 +22,9 @@ class AuthController extends GetxController {
   _initialScreen(User? user) {
     if (user == null) {
       print('login page');
-      Get.offAll(() => LoginPage());
+      Get.offAll(() => LoginScreen());
     } else {
-      Get.offAll(() =>  WelcomePage(email:user.email!));
+      Get.offAll(() =>  WelcomeScreen(email:user.email!));
     }
   }
 
@@ -40,7 +42,7 @@ class AuthController extends GetxController {
           ));
     }
   }
-   void login(String email, password) async {
+   void login(String email, password, BuildContext context) async {
     try {
       await auth.signInWithEmailAndPassword(
           email: email, password: password);

@@ -3,7 +3,7 @@ import 'package:realestate/screens/login_screen.dart';
 import 'package:realestate/screens/signUp_screen.dart';
 
 class WelcomeScreen extends StatelessWidget {
-  const WelcomeScreen({Key? key}) : super(key: key);
+  const WelcomeScreen({Key? key, required String email}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
